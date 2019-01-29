@@ -7,7 +7,7 @@ class Application
     time = Kenrnel.rand(1..24)
     
     if time <= 12
-      resp.write ""
+      resp.write "Good Morning!"
   
   
     resp.finish
